@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Integral CF';
+}
+
+.CategCard-container{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    align-items: center;
+    flex-grow: 1.5;
+    
+}
+.CategCard-container .catT{
+    
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.CategCard-container .catI{
+    height: 150px;
+    width: 300px;
+    background-image: url("C:\Users\santo\OneDrive\Desktop\Portfolio\EcomWebApp\frontend\src\assets\products\category.jpg");
+    background-position: center;
+    background-size: cover;/*to cover the whole container*/
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.CategCard-container:hover{
+    transform: scale(1.1);
+}

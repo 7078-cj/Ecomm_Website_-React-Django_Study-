@@ -1,0 +1,23 @@
+import React from 'react'
+import './css/Footer.css'
+
+function Footer() {
+  return (
+    <div className='footer'>
+      <div className="footer-content">
+        <h4>7078.SHOP</h4>
+        <p className='sub'>Shop all you want</p>
+        
+      </div>
+      <div className="icon">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMNJREFUSEvtVcENwyAQszdpJmmzSTNZs0nTSZpNrr0IEKmQkLgjyqMnIfEA+2wwEJ2LnfFxLIGIPAHcjKpWkkPE2CkQETGCb9tJJlwrwQpAh1ZS7kGwAJhIRnDk9noQDDm4tu9JMJOcAujla9EdwNXTopzgEQh2d8NqUTeCGcBLbw1JPWT1XS3SoaVqtnmrgjECl7KSZ8idICh5p/Qag9btDGKDf4Lqe3pui4rR/9FUU7CQHIsfTtWchgXH/skNDVa3fAA4lpoZL4YNVgAAAABJRU5ErkJggg=="/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYtJREFUSEvFVTtOw0AUnKmp6aFHIC4A5BhIFKRFAokTQG4ACGoSCYmeCxBugLgAoaKgp6B57CzPVrJ2TNZWlNf583Zm3meWWHJwyedjNQBmtgHgGMA+gIMGlRP/NgYwIFk8lykVBWamg+9blE6Hj0heTufOADjz9xaHFykC6ZOUohgpgJhLQU70vIwXnjQk2Z8HIPaqf10MA7uPQEAs1RsRmZDcTMo6JinQWgVWc3Ip28zWo2zyy8v57P9Pk4qgOQBi8wPgyJmLxAuABwCfACo9Y+j0ogCxnoH5HYCTRN0tyVMzk4qZUc4BULOenPFWAvBGcsfMNJZFg//qnqFgAOAmlEYstxOAV5K7XQHiRJjZNYCzBOCK5LmZVUY7R0GcIADfAA4B7DmImvwIYM3VzWDnACixsp16aWZqbDGmCwNUJsIzBaL116IpmkywcdHaWEW6m41WoY3sYnYC6801O69tW7tWupxUnlVG7Y3mPqPlkaKmC6cYglH4V6X5/8KpMbtOr1ZzJ3einCT/Agxmohk4DnrvAAAAAElFTkSuQmCC"/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASlJREFUSEvlVcsVwjAMszehkwCT0E4CTAJMAkwCm4ioz3mk+TU5cCKXNK1tObLsqvx46Y/jy58CANiJyFFENkbxTVVPAHge+eypX1AE4C4ik6q+S7UBMIrIJfOdPgSg/7UEAJcBDeeMciAAaFNa9H2YP/dvke16r8Dz7DK6hrepZB8C7lV1Dr4A4MEoIr9+MaP5RraTghw93p4JTSFaXAPyGxavt03KABmKeoPTflHgFop6QYZYgTFF5JhS9fruAlAnvdgheWFNdGDDdEXP0JNQZEoqNVIN762qQ84gO+xcL7HJqKbWtdB+UabhBz9XGoAS5VQBLDBteIO1OhQzTzrZArcqiKOgOhQTACsw5clRsTWphnLlyHjG82mtSH/6R1ujpUmmPUFqth9jNG4ZtZXXXAAAAABJRU5ErkJggg=="/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXRJREFUSEu1VYltwzAMJDdpJ0mySTNJk0mSTpJ0kmYT1meQwumz7AAmYBi2JB7v+EhlZ9Od/csQwMyOIoLn4O+XiOD5nb6fqvpcCrILYGYfInJzp0s+AHZSVbwrawKY2UVEvjfIB+c/qopzmVUAZvblkW/wn7ZeS5AMwGX58+3Q9jzpDcBgEzJAPtgVefB15AnrZ85LCfAgze+qCgABMGvc+GZJX6r6GZwSQEOaBDDSysxQDGAahqTP1bUEkDatAIBkIe0sXeSCATiKjOYIwGVkedEfp5IBIojkpQ1rnDtAM0BmwADvMODzopNGJQOm+A6AEdtUIMyg7N4tVdQ9ywBoFLBgqzqTF70xuRH7ZUqVgESjwQCIDo7piQ5NA83MWFLGzQqkNyrmCUkjAIfmrg5rNFcVfZZkOhh6juRpTVywvHMgo3Ed8mAUZwcbI71y3mRATPjCqdgQQDVBhwwalYLGyW4sr6Dqf9n5wzt57ajo7dsd4B8vxscZvx7aaAAAAABJRU5ErkJggg=="/>
+        </div>
+      
+      </div>
+  )
+}
+
+export default Footer

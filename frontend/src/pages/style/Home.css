@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Integral CF';
+}
+
+.hero-container{
+    height: 700px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-container .content-container{
+    width: 50%;
+    
+    padding-left: 150px;
+}
+.hero-container .heroImg{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url("C:\Users\santo\OneDrive\Desktop\Portfolio\EcomWebApp\frontend\src\assets\products\hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-container  img{
+    
+    margin: 50px;
+    animation: rotation 2s infinite linear;
+   
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100%;
+
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg) scale(1);
+      }
+      50% {
+        transform: rotate(180deg) scale(1.1);
+      }
+      100% {
+        transform: rotate(360deg) scale(1);
+      }
+  }
+ 
+  
+.content{
+    margin-bottom: 30px;
+}
+.hero-footer{
+    height: 129px;
+    width: 100%;
+    background: rgb(65, 62, 70);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*  mid section  */
+
+
+
+section .new-arri{
+    
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.mid-img{
+    width: 900px;
+    
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-flow: row wrap ;
+    
+    
+    padding: 15px;
+   
+    
+}
+
+.line{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 700px;
+    width: 25%;
+    height: 1px;
+    padding-left:100px ;
+    padding-right:100px ;
+    background-color: black;
+    
+}
+
+section .top-sell{
+    margin-top: 10px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+section .browse{
+    height: 455px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#nd-sect{
+    height: 611px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    margin-top: 50px;
+}
+
+.category{
+    
+    
+    
+    display: flex;
+    flex-flow: row wrap ;
+    align-items: center;
+    
+    
+    margin: 15px;
+    
+}
+
+
+.browse{
+    margin: 50px;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    
+    background-blend-mode: multiply;
+}
+
