@@ -9,6 +9,9 @@ abuse of useContext,
 stylings of other feature(i am lazy),
 
 
+
+
+
 django libs used:
 
 cors-headers,
@@ -18,6 +21,10 @@ djangorestframework,
 pillow,
 
 djangorestframework-simplejwt ,
+
+
+
+
 
 react libs used:
 
